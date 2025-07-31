@@ -1,5 +1,6 @@
 ## Ejercicios finales de repaso.
 1. Explica, en tus propias palabras, por qué es necesario que las computadoras representen los datos en binario.
+
 R/: Las computadoras usan binarios porque sus circuitos solo pueden distinguir dos estados: encendido (1) y apagado (0). Así, pueden procesar y almacenar toda la información de manera simple y eficiente usando solo ceros y unos.
 
 2. Convierte el número binario 10011011 a decimal y a hexadecimal.
@@ -34,8 +35,9 @@ Hexadecimal: 9B
 R/: Copiloto dijo: Una imagen en formato PNG se representa
 Una imagen en formato PNG se representa en el disco como un archivo que almacena los datos de la imagen siguiendo el estándar PNG (Portable Network Graphics). Este archivo contiene una serie de  "chunks"  (bloques de datos) organizados de manera específica:
 
-1. Encabezado : Comienza con una firma de 8 bytes que identifica el archivo como PNG.
-2. Bloques de datos ("chunks") : Cada fragmento tiene un propósito específico:
+**Encabezado :** Comienza con una firma de 8 bytes que identifica el archivo como PNG.
+
+**Bloques de datos ("chunks")** : Cada fragmento tiene un propósito específico:
 - IHDR : Contiene información básica (ancho, alto, profundidad de color, tipo de color).
 - IDAT : Guarda los datos de la imagen comprimidos (usando el algoritmo zlib/deflate).
 - PLTE : (opcional) Paleta de colores usada en la imagen.
