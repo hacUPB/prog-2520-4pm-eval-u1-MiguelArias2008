@@ -4,6 +4,7 @@
 R/: Las computadoras usan binarios porque sus circuitos solo pueden distinguir dos estados: encendido (1) y apagado (0). Así, pueden procesar y almacenar toda la información de manera simple y eficiente usando solo ceros y unos.
 
 2. Convierte el número binario 10011011 a decimal y a hexadecimal.
+
 R/: Cada cifra del número binario representa una potencia de 2, comenzando desde la derecha (posición 0):
 
 Posición	7	6	5	4	3	2	1	0
@@ -32,6 +33,7 @@ Agrupamos el número binario en dos bloques de 4 bits:
 Hexadecimal: 9B
 
 3. Investiga y describe cómo se representa una imagen en formato PNG en el disco.
+
 R/: Copiloto dijo: Una imagen en formato PNG se representa
 Una imagen en formato PNG se representa en el disco como un archivo que almacena los datos de la imagen siguiendo el estándar PNG (Portable Network Graphics). Este archivo contiene una serie de  "chunks"  (bloques de datos) organizados de manera específica:
 
@@ -48,6 +50,7 @@ Los datos de la imagen (píxeles) se almacenan en comprimidos para reducir el ta
 En resumen: Un archivo PNG en disco es una secuencia de estructura de bloques que contienen datos comprimidos, metadatos y parámetros de la imagen, permitiendo almacenar gráficos con alta calidad y transparencia.
 
 4. Analiza la siguiente situación: ¿Qué sucede si intentas almacenar un número mayor al que puede representar un byte (por ejemplo, 300)? ¿Cómo lo maneja Python?
+
 R/: Si intentas almacenar un número mayor al que puede representar un byte (por ejemplo,  300 ) en un solo byte, ese valor no cabe, ya que un byte solo puede representar valores entre  0  y  255 .
 
 En Python, si usas un tipo de datos estándar como  int , no hay problema porque Python puede manejar números mucho más grandes que un byte. Pero si trabajas con bytes directamente (por ejemplo, usando  bytes  o  bytearray ), y tratas de poner el valor  300  en una posición, Python genera un error:
@@ -65,7 +68,8 @@ Python no permite guardar  300  en un solo byte y lanza un error si lo inten
 - Datos enteros: 76931
 - Datos punto flotante: 105230
 
-**¿Cuantos bytes?
+**¿Cuantos bytes?**
+
 R/: 
 - 52794 caracteres x1 byte= 52794 bytes
 - 76931 x4 bytes= 307724 bytes
