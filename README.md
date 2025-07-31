@@ -2,6 +2,7 @@
 # Repositorio Unidad \# 2
 ## Información del estudiante
 Nombre:  Miguelangel Arias Osorio
+
 ID.:  000572485
 ## Descripción del repositorio
 Por el momento en mi repositorio encontraras la actividad 1 de la unidad #2, a medida del tiempo puedes encontrar lo que voy realizando.
