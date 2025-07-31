@@ -57,3 +57,21 @@ b[0] = 300  # error: ValueError: byte must be in range(0, 256)
 
 **En resumen:**
 Python no permite guardar  300  en un solo byte y lanza un error si lo intentas. Si necesitas almacenar números más grandes, tienes que usar más bytes (por ejemplo, dos bytes para valores de 0 a 65535).
+
+## Ejercicio adicional en clase:
+
+**Tenemos 3 archivos:**
+- Texto: 52794 caracteres
+- Datos enteros: 76931
+- Datos punto flotante: 105230
+
+**¿Cuantos bytes?
+R/: 
+- 52794 caracteres x1 byte= 52794 bytes
+- 76931 x4 bytes= 307724 bytes
+- 105230 x4 bytes= 420920 bytes
+**Total:** 
+- 781.438
+# Conversion a kb:
+**Se divide el total entre 1024**
+Total en kb: 763,123
