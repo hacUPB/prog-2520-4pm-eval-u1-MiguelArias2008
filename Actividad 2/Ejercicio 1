@@ -1,0 +1,40 @@
+## Simbolos de diagrama de flujo y su significado.
+
+1. # Óvalo (Terminal/Incio-Fin)
+
+Significado: Indica el inicio o fin del algoritmo.
+
+**Símbolo:**
+! [Óvalo]
+
+2. # Paralelogramo (Entrada/Salida de datos)
+
+SIGNIFICADO: Representa la entrada de datos (leer, pedir) o la salida de datos (mostrar, imprimir).
+
+**Símbolo:**
+![Paralelogramo]
+
+3. # Rectangulo (Proceso o instruccion)
+
+SIGNIFICADO: Indica cualquier operación o proceso, como cálculos matemáticos o asignaciones de variables.
+
+**Símbolo:**
+
+![Rectángulo]
+
+4. # Rombo (Decision/condicion)
+
+SIGNIFICADO: Muestra un punto donde se debe tomar una decisión, como una condición lógica (sí/no, verdadero/falso).
+
+**Símbolo:**
+
+![Rombo]
+
+5. # Flechas (lineas de flujo)
+
+Significado: Indican la dirección del flujo del algoritmo, conectando los diferentes símbolos.
+
+
+6. # Círculo o Conector
+
+Significado: Se utiliza para enlazar diferentes partes del diagrama cuando este es muy grande.
