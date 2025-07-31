@@ -12,3 +12,4 @@ dolares = cantidad_pesos_colombianos / valor_dolar
 mostrar dolares
 fin
 ```
+![imagen 3](./imagenes/ejercicio%203.png)

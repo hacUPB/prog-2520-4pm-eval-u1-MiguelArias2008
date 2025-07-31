@@ -12,3 +12,5 @@ Promedio = Total / 6
 Mostrar ID, Total, Promedio
 fin
 ```
+
+![Imagen 2](./imagenes/ejercicio2.png)
