@@ -25,8 +25,8 @@ Inicio
     Ajuste de edad si no ha cumplido años aún en el año actual
     Si mes_actual < mes_nacimiento Entonces
         edad = edad - 1
-    Si no
-        Si mes_actual = mes_nacimiento Entonces
+        Si no
+            Si mes_actual = mes_nacimiento Entonces
             Si dia_actual < dia_nacimiento Entonces
                 edad = edad - 1
             Fin Si
