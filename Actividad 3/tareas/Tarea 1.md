@@ -14,7 +14,7 @@ Inicio
     interes = 0.02
 
     Leer valor_compra
-    Si valor_compra > cupo_tarjeta ENTONCES
+    Si valor_compra > cupo_tarjeta Entonces
         MOSTRAR "Error: Fondos insuficientes"
         Fin
     Fin si
