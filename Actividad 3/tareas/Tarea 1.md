@@ -13,13 +13,13 @@ Inicio
     cupo_tarjets = 10000000
     interes = 0.02
 
-    LEER valor_compra
+    Leer valor_compra
     Si valor_compra > cupo_tarjeta ENTONCES
         MOSTRAR "Error: Fondos insuficientes"
         Fin
     Fin si
 
-    LEER numero_cuotas
+    Leer numero_cuotas
     Si numero_cuotas <= 0 O numero_cuotas > 36 ENTONCES
         MOSTRAR "Error: El número de cuotas debe ser entre 1 y 36"
         Fin
